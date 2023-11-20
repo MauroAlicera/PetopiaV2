@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MascotasPerdidasMenu">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título: "
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción: "
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginStart="5dp"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:id="@+id/txtUbicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicación: "
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginStart="5dp"
+        android:padding="8dp"
+    />
+
+    <TextView
+        android:id="@+id/txtFechaPublicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha publicación: "
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginStart="5dp"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:id="@+id/txtUsuarioPublica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publicación de: "
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginStart="5dp"
+        android:padding="8dp"
+    />
+
+    <TextView
+        android:id="@+id/txtTipoPublicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de publicación: "
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginStart="5dp"
+        android:padding="8dp"
+        />
+
+
+
+</LinearLayout>
+
